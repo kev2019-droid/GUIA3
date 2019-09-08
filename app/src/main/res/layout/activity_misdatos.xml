@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Misdatos">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Mis Datos"
+        android:textSize="40sp"
+        ></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nombre: Kevin Edenilson Cruz Garcia"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:layout_marginTop="20sp"
+        ></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Codigo: CG16-I04-001"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:layout_marginTop="20sp"
+        ></TextView>
+
+    <Button
+        android:id="@+id/btnregresar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20sp"
+        android:onClick="regresar"
+        android:text="Regresar"></Button>
+
+</LinearLayout>
